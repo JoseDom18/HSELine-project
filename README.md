@@ -1,4 +1,4 @@
-# Projecto integrador 1
+# Proyecto integrador 1
 
 Objetivos
 - Entregar una pagina web
