@@ -63,3 +63,78 @@ inf <--- bd
 ### Casos de uso
 
 ![diagrama de casos de uso](plantuml.png)
+
+### Especificaciones
+
+#### UC 1
+
+- Nombre: Registrar Usuario
+  - Actores: Administrador, gob.mx
+  - Descripción: Dar de alta al usuario nuevo en el sistema, el sistema se apoyara de diferentes sistemas como la pagina gob.mx para encontrar datos en automático.
+  - Precondición: Tener todos los documentos del empleado.
+  - Postcondición: El usuario queda dado de alta en el sistema.
+  - Escenario: El administrador tiene los documentos del empleado y puede dar de alta al empleado sin problemas.
+  - Escenario alternativo: El administrador no cuenta con todos los documentos, el administrador no puede ingresar todos los datos al sistema.
+
+  #### UC 2
+
+- Nombre: Modificar Usuario
+  - Actores: Administrador
+  - Descripción: Modificar datos del empleado, por algún error a la hora de dar de alta.
+  - Precondición: El empleado debe estar registrado en el sistema.
+  - Postcondición: La información seleccionada queda modificada.
+  - Escenario alternativo: El sistema no tiene al empleado registrado, el sistema solicita dar de alta al empleado.
+
+  #### UC 3
+
+  - Nombre: Eliminar empleado
+  - Actores: Administrador
+  - Descripción: Cuando un empleado ya no se requiere en el sistema este se elimina.
+  - Precondición: El empleado debe estar en el sistema.
+  - Postcondición: El empleado queda fuera del sistema.
+  - Escenario alternativo: Si el usuario no existe, no se requiere ninguna acción en el sistema.
+
+    #### UC 4
+
+  - Nombre: Consultar información de empleado
+  - Actores: Administrador
+  - Descripción: El sistema arroja la información sobre un empleado.
+  - Precondición: El empleado debe estar dado de alta en el sistema.
+  - Postcondición: El sistema muestra los datos por medio de la interfaz.
+  - Escenario alternativo: El empleado no esta dado de alta en el sistema y no puede mostrar ninguna información.
+
+    #### UC 5
+
+  - Nombre: 
+  - Actores: 
+  - Descripción: 
+  - Precondición: 
+  - Postcondición: 
+  - Escenario alternativo: 
+
+    #### UC 6
+
+  - Nombre: 
+  - Actores: 
+  - Descripción: 
+  - Precondición: 
+  - Postcondición: 
+  - Escenario alternativo: 
+
+    #### UC 7
+
+  - Nombre: 
+  - Actores: 
+  - Descripción: 
+  - Precondición: 
+  - Postcondición: 
+  - Escenario alternativo: 
+
+    #### UC 8
+
+  - Nombre: 
+  - Actores: 
+  - Descripción: 
+  - Precondición: 
+  - Postcondición: 
+  - Escenario alternativo: 
