@@ -105,36 +105,36 @@ inf <--- bd
 
     #### UC 5
 
-  - Nombre: 
-  - Actores: 
-  - Descripción: 
-  - Precondición: 
-  - Postcondición: 
-  - Escenario alternativo: 
+  - Nombre: Registrarse en el sistema
+  - Actores: Empleado
+  - Descripción: El empleado ingresa a la pagina y inicia sesion (si es que ya le dieron de alta en el sistema).
+  - Precondición: El administrador registro al empleado
+  - Postcondición: El sistema muestra la informacion del empleado
+  - Escenario alternativo: El empleado a un no ha sido registrado en el sistema por lo que no podra acceder a ver su informacion
 
     #### UC 6
 
-  - Nombre: 
-  - Actores: 
-  - Descripción: 
-  - Precondición: 
-  - Postcondición: 
-  - Escenario alternativo: 
+  - Nombre: Consultar mi información personal
+  - Actores: Empleado
+  - Descripción: El empleado accede a la pagina y visualiza su respectiva información, que cursos tiene vigente, cursos por vencer, etc.
+  - Precondición: El empleado debió iniciar sesion en la página.
+  - Postcondición: El empleado podra visualizar su información.
+  - Escenario alternativo: El empleado no inicio sesion correctamente por lo que no podra visualizar su informacion.
 
     #### UC 7
 
-  - Nombre: 
-  - Actores: 
-  - Descripción: 
-  - Precondición: 
-  - Postcondición: 
-  - Escenario alternativo: 
+  - Nombre: Consultar cursos por vencer
+  - Actores: Empleado
+  - Descripción: El empleado accede a la pagina y entra a la seccion de cursos, aqui el podra visualizar los cursos que esten por vencer.
+  - Precondición: El empleado inicio sesion correctamente y ingreso al apartado de cursos.
+  - Postcondición: El empleado pudo visualizar exitosamente los cursos que esten proximos a vencer.
+  - Escenario alternativo: El empleado no tiene cursos aún.
 
     #### UC 8
 
-  - Nombre: 
-  - Actores: 
-  - Descripción: 
-  - Precondición: 
-  - Postcondición: 
-  - Escenario alternativo: 
+  - Nombre: Realizar cursos virtuales
+  - Actores: Empleado
+  - Descripción: El empleado realizara cursos de manera virtual, los cursos que tendrá que hacer fueron previamente asigandos por el administrador.
+  - Precondición: Que el administrador haya asignado correctamente los cursos que tiene que hacer el empleado.
+  - Postcondición: El empleado podra visualizar los cursos y podrá empezar a realizarlos.
+  - Escenario alternativo: El empleado aun no puede ver los cursos que tiene que hacer.
