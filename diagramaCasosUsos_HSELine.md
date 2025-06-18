@@ -5,7 +5,7 @@
 Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento QHSE, la lider de este
 departamento requiere un sistema donde la información se ecuentre centralizada, el sistema debe de alojar a
 toda la base de empleados para poder almacenar toda la informacion para su uso posterior, uno de los
-principales procesos es la elaboracion de contratos.<!--  Para esto se necesita capturar la siguiente informacion del
+principales procesos es la elaboracion de contratos. Para esto se necesita capturar la siguiente informacion del
 empleado. Nombre, apellidos, clave de elector, vigencia de ine, fecha de nacimiento, curp, numero de
 empleado, categoria, tipo de sangre, alergias, numero de empleado, años laborales. Cada empleado cuenta
 con 3 tipos diferentes de certificaciones, la primera son los cursos iadc (piso de perforacion) estos cursos
@@ -18,14 +18,14 @@ alta en la compañia. Los empleado tienen un certificado medico el cual tiene vi
 empleado esta apto para trabajar. Cada empleado tiene un documento de entrega de epp el cual tiene una
 vigencia. Los empleados tienen una credencial de empresa que se compone de nombre, apellidos, categoria,
 vigencia de credencial, curp, tipo de sangre, alergia y numero de empresa, esta credencial nos gustaria crearla
-de manera automatica con el sistema. Los empleado tienen cusos de barcaza los cuales tienen vigencia. -->
+de manera automatica con el sistema. Los empleado tienen cusos de barcaza los cuales tienen vigencia.
 
 ## Procesos
 
-ADMINISTRADOR: Gestión del sistema
-Nombre: Flujo de uso del sistema por parte del Administrador
-Actor: Administrador
-Descripción: Secuencia de pasos que sigue el administrador para operar el sistema y mantener la información actualizada.
+ADMINISTRADOR: Gestión del sistema\
+Nombre: Flujo de uso del sistema por parte del Administrador\
+Actor: Administrador\
+Descripción: Secuencia de pasos que sigue el administrador para operar el sistema y mantener la información actualizada.\
 Flujo principal:
 1.	El administrador accede al sitio del sistema HSELine.
 2.	Ingresa sus credenciales y inicia sesión correctamente.
@@ -39,11 +39,11 @@ Flujo principal:
 10.	En cualquier momento, puede consultar información específica de cualquier empleado por medio del buscador del sistema.
 11.	Finaliza su sesión de manera segura.
 ---
-EMPLEADO COMÚN: Consulta y capacitación
-Nombre: Flujo de uso del sistema por parte del Empleado
-Actor: Empleado
-Descripción: Pasos que realiza un empleado para ingresar al sistema, revisar su información y realizar cursos.
-Flujo principal:
+EMPLEADO COMÚN: Consulta y capacitación  
+Nombre: Flujo de uso del sistema por parte del Empleado  
+Actor: Empleado  
+Descripción: Pasos que realiza un empleado para ingresar al sistema, revisar su información y realizar cursos.  
+Flujo principal:  
 1.	El empleado accede a la página del sistema HSELine desde cualquier navegador.
 2.	Inicia sesión con su número de empleado y contraseña proporcionada por el administrador.
 3.	En el panel principal, el sistema muestra su información personal: nombre, CURP, categoría, años laborales, etc.
