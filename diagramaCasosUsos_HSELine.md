@@ -69,23 +69,23 @@ inf <--- bd
 #### UC 1
 
 - Nombre: Registrar Usuario
-  - Actores: Administrador, gob.mx
-  - Descripción: Dar de alta al usuario nuevo en el sistema, el sistema se apoyara de diferentes sistemas como la pagina gob.mx para encontrar datos en automático.
-  - Precondición: Tener todos los documentos del empleado.
-  - Postcondición: El usuario queda dado de alta en el sistema.
-  - Escenario: El administrador tiene los documentos del empleado y puede dar de alta al empleado sin problemas.
-  - Escenario alternativo: El administrador no cuenta con todos los documentos, el administrador no puede ingresar todos los datos al sistema.
+- Actores: Administrador, gob.mx
+- Descripción: Dar de alta al usuario nuevo en el sistema, el sistema se apoyara de diferentes sistemas como la pagina gob.mx para encontrar datos en automático.
+- Precondición: Tener todos los documentos del empleado.
+- Postcondición: El usuario queda dado de alta en el sistema.
+- Escenario: El administrador tiene los documentos del empleado y puede dar de alta al empleado sin problemas.
+- Escenario alternativo: El administrador no cuenta con todos los documentos, el administrador no puede ingresar todos los datos al sistema.
 
-  #### UC 2
+#### UC 2
 
 - Nombre: Modificar Usuario
-  - Actores: Administrador
-  - Descripción: Modificar datos del empleado, por algún error a la hora de dar de alta.
-  - Precondición: El empleado debe estar registrado en el sistema.
-  - Postcondición: La información seleccionada queda modificada.
-  - Escenario alternativo: El sistema no tiene al empleado registrado, el sistema solicita dar de alta al empleado.
+- Actores: Administrador
+- Descripción: Modificar datos del empleado, por algún error a la hora de dar de alta.
+- Precondición: El empleado debe estar registrado en el sistema.
+- Postcondición: La información seleccionada queda modificada.
+- Escenario alternativo: El sistema no tiene al empleado registrado, el sistema solicita dar de alta al empleado.
 
-  #### UC 3
+#### UC 3
 
   - Nombre: Eliminar empleado
   - Actores: Administrador
@@ -94,7 +94,7 @@ inf <--- bd
   - Postcondición: El empleado queda fuera del sistema.
   - Escenario alternativo: Si el usuario no existe, no se requiere ninguna acción en el sistema.
 
-    #### UC 4
+#### UC 4
 
   - Nombre: Consultar información de empleado
   - Actores: Administrador
@@ -103,38 +103,38 @@ inf <--- bd
   - Postcondición: El sistema muestra los datos por medio de la interfaz.
   - Escenario alternativo: El empleado no esta dado de alta en el sistema y no puede mostrar ninguna información.
 
-    #### UC 5
+#### UC 5
 
   - Nombre: Registrarse en el sistema
   - Actores: Empleado
-  - Descripción: El empleado ingresa a la pagina y inicia sesion (si es que ya le dieron de alta en el sistema).
+  - Descripción: El empleado ingresa a la pagina y inicia sesión (si es que ya le dieron de alta en el sistema).
   - Precondición: El administrador registro al empleado
-  - Postcondición: El sistema muestra la informacion del empleado
-  - Escenario alternativo: El empleado a un no ha sido registrado en el sistema por lo que no podra acceder a ver su informacion
+  - Postcondición: El sistema muestra la información del empleado
+  - Escenario alternativo: El empleado a un no ha sido registrado en el sistema por lo que no podrá acceder a ver su información.
 
-    #### UC 6
+#### UC 6
 
   - Nombre: Consultar mi información personal
   - Actores: Empleado
   - Descripción: El empleado accede a la pagina y visualiza su respectiva información, que cursos tiene vigente, cursos por vencer, etc.
-  - Precondición: El empleado debió iniciar sesion en la página.
-  - Postcondición: El empleado podra visualizar su información.
-  - Escenario alternativo: El empleado no inicio sesion correctamente por lo que no podra visualizar su informacion.
+  - Precondición: El empleado debió iniciar sesión en la página.
+  - Postcondición: El empleado podrá visualizar su información.
+  - Escenario alternativo: El empleado no inicio sesión correctamente por lo que no podrá visualizar su información.
 
-    #### UC 7
+#### UC 7
 
   - Nombre: Consultar cursos por vencer
   - Actores: Empleado
-  - Descripción: El empleado accede a la pagina y entra a la seccion de cursos, aqui el podra visualizar los cursos que esten por vencer.
-  - Precondición: El empleado inicio sesion correctamente y ingreso al apartado de cursos.
-  - Postcondición: El empleado pudo visualizar exitosamente los cursos que esten proximos a vencer.
+  - Descripción: El empleado accede a la pagina y entra a la sección de cursos, aquí el podrá visualizar los cursos que estén por vencer.
+  - Precondición: El empleado inicio sesión correctamente y ingreso al apartado de cursos.
+  - Postcondición: El empleado pudo visualizar exitosamente los cursos que estén próximos a vencer.
   - Escenario alternativo: El empleado no tiene cursos aún.
 
-    #### UC 8
+#### UC 8
 
   - Nombre: Realizar cursos virtuales
   - Actores: Empleado
-  - Descripción: El empleado realizara cursos de manera virtual, los cursos que tendrá que hacer fueron previamente asigandos por el administrador.
+  - Descripción: El empleado realizara cursos de manera virtual, los cursos que tendrá que hacer fueron previamente asignados por el administrador.
   - Precondición: Que el administrador haya asignado correctamente los cursos que tiene que hacer el empleado.
-  - Postcondición: El empleado podra visualizar los cursos y podrá empezar a realizarlos.
+  - Postcondición: El empleado podrá visualizar los cursos y podrá empezar a realizarlos.
   - Escenario alternativo: El empleado aun no puede ver los cursos que tiene que hacer.
