@@ -20,49 +20,46 @@ vigencia. Los empleados tienen una credencial de empresa que se compone de nombr
 vigencia de credencial, curp, tipo de sangre, alergia y numero de empresa, esta credencial nos gustaria crearla
 de manera automatica con el sistema. Los empleado tienen cusos de barcaza los cuales tienen vigencia.
 
+## Procesos
+
+ADMINISTRADOR: Gestión del sistema\
+Nombre: Flujo de uso del sistema por parte del Administrador\
+Actor: Administrador\
+Descripción: Secuencia de pasos que sigue el administrador para operar el sistema y mantener la información actualizada.\
+Flujo principal:
+1.	El administrador accede al sitio del sistema HSELine.
+2.	Ingresa sus credenciales y inicia sesión correctamente.
+3.	Una vez dentro, selecciona la opción Registrar nuevo empleado.
+4.	Llena el formulario con los datos personales del empleado (nombre, CURP, sangre, alergias, etc.).
+5.	Registra los documentos obligatorios del empleado (INE, NSS, certificado médico, EPP, libreta de mar).
+6.	Asigna los cursos necesarios (IADC, SSPA, Técnicos y/o Barcaza) al nuevo empleado.
+7.	El sistema genera automáticamente la credencial empresarial con los datos capturados.
+8.	Si nota errores o faltantes, accede al módulo de modificación y actualiza los datos del empleado.
+9.	En caso de que un empleado ya no labore en la empresa, accede al módulo de eliminación y lo elimina del sistema.
+10.	En cualquier momento, puede consultar información específica de cualquier empleado por medio del buscador del sistema.
+11.	Finaliza su sesión de manera segura.
+---
+EMPLEADO COMÚN: Consulta y capacitación  
+Nombre: Flujo de uso del sistema por parte del Empleado  
+Actor: Empleado  
+Descripción: Pasos que realiza un empleado para ingresar al sistema, revisar su información y realizar cursos.  
+Flujo principal:  
+1.	El empleado accede a la página del sistema HSELine desde cualquier navegador.
+2.	Inicia sesión con su número de empleado y contraseña proporcionada por el administrador.
+3.	En el panel principal, el sistema muestra su información personal: nombre, CURP, categoría, años laborales, etc.
+4.	Navega al apartado de documentos y revisa el estado de su NSS, certificado médico, libreta de mar, entre otros.
+5.	Luego ingresa a la sección de cursos.
+6.	Visualiza cuáles cursos tiene vigentes y cuáles están por vencer próximamente.
+7.	Si tiene cursos virtuales asignados, accede al módulo de cursos en línea, selecciona uno, y lo empieza a realizar.
+8.	Puede hacer seguimiento de su progreso, completar los módulos y completar el cuestionario para finalizarlo.
+9.	Si detecta algún dato incorrecto, puede reportarlo al administrador desde el sistema.
+10.	Finalmente, cierra sesión al terminar su revisión o capacitación.
+
+
 ## Actores
 
 - Administrador
 - Empleado
-
-<!-- ## Diagrama de casos de uso
-
-```plantuml
-@startuml
-left to right direction
-
-package HSELine {
-  usecase "Registrar, modificar y eliminar empleados" as re
-  usecase "Consultar información de empleado" as inf
-  usecase "Registrar, modificar y eliminar curso" as cur
-  usecase "Conocer vigencia de curso" as vig
-  usecase "Consultar años trabajados" as anio
-  usecase "Login"
-  usecase "Verificar credenciales" as ver
-  usecase "Comenzar curso" as start
-}
-
-actor Administrador as admin
-actor Empleado as emp
-actor :SQL server: as bd -->
-
-<!-- admin -> re
-emp -> re
-admin -> inf
-admin -> cur
-Login .down.> ver : include
-emp -> Login
-emp -> vig
-admin -> anio
-start .> vig : exclude
-inf <--- bd
-@enduml
-``` 
--->
-
-### Casos de uso
-
-![diagrama de casos de uso](plantuml.png)
 
 ### Especificaciones
 
@@ -138,3 +135,9 @@ inf <--- bd
   - Precondición: Que el administrador haya asignado correctamente los cursos que tiene que hacer el empleado.
   - Postcondición: El empleado podrá visualizar los cursos y podrá empezar a realizarlos.
   - Escenario alternativo: El empleado aun no puede ver los cursos que tiene que hacer.
+
+
+### Casos de uso
+
+![diagrama de casos de uso](plantuml.png)
+
