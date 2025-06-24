@@ -72,7 +72,7 @@ Flujo principal:
 
 - Nombre: Registrar Usuario
 - Actores: Administrador, gob.mx
-- Descripción: Dar de alta al usuario nuevo en el sistema, el sistema se apoyara de diferentes sistemas como la pagina gob.mx para encontrar datos en automático.
+- Descripción: Dar de alta al usuario nuevo en el sistema, el sistema se apoyara de diferentes sistemas como la pagina gob.mx para encontrar datos en automático (el administrador necesita tener los siguientes documentos: CURP, NSS, cursos, nivel de estudios, INE, etc), el administrador debe ingresar a nuestra plataforma, iniciar sesión mediante su usuario y contraseña que se le proporcionará, despues de iniciar sesion podra visualizar el panel de administracion de empleados, aquí el administrador podra seleccionar agregar a un empleado, deberá ingresar los datos del nuevo empleado, como tambien los cursos que tiene.
 - Precondición: Tener todos los documentos del empleado.
 - Postcondición: El usuario queda dado de alta en el sistema.
 - Escenario: El administrador tiene los documentos del empleado y puede dar de alta al empleado sin problemas.
