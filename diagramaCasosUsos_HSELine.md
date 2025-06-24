@@ -2,23 +2,23 @@
 
 ## Antecedentes
 
-Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento QHSE, la lider de este
-departamento requiere un sistema donde la información se ecuentre centralizada, el sistema debe de alojar a
-toda la base de empleados para poder almacenar toda la informacion para su uso posterior, uno de los
-principales procesos es la elaboracion de contratos. Para esto se necesita capturar la siguiente informacion del
+Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento QHSE, la líder de este
+departamento requiere un sistema donde la información se encuentre centralizada, el sistema debe de alojar a
+toda la base de empleados para poder almacenar toda la información para su uso posterior, uno de los
+principales procesos es la elaboración de contratos. Para esto se necesita capturar la siguiente información del
 empleado. Nombre, apellidos, clave de elector, vigencia de ine, fecha de nacimiento, curp, numero de
-empleado, categoria, tipo de sangre, alergias, numero de empleado, años laborales. Cada empleado cuenta
-con 3 tipos diferentes de certificaciones, la primera son los cursos iadc (piso de perforacion) estos cursos
-tienen un numero de folio unico, una vigencia, nombre y fecha de expedicion; la segunda son los cursos de
-anexo SSPA los cuales tienen vigencia, fecha de expedicion y nombre del capacitador, y por ultimo el tecer
-tipo de curso son los cursos tecnicos que tienen vigencia, expedicion y estan clasificados dependiendo la
-categoria del empleado. Los empleado tambien cuentan con una libreta de mar, con los los siguientes datos,
-fecha de expedicion, vigencia, tipo de libreta (A o D). Los empelados deben de tener sus nss con la fecha de
-alta en la compañia. Los empleado tienen un certificado medico el cual tiene vigencia y determina si el
+empleado, categoría, tipo de sangre, alergias, numero de empleado, años laborales. Cada empleado cuenta
+con 3 tipos diferentes de certificaciones, la primera son los cursos iadc (piso de perforación) estos cursos
+tienen un numero de folio único, una vigencia, nombre y fecha de expedición; la segunda son los cursos de
+anexo SSPA los cuales tienen vigencia, fecha de expedición y nombre del capacitador, y por ultimo el tercer
+tipo de curso son los cursos técnicos que tienen vigencia, expedición y están clasificados dependiendo la
+categoría del empleado. Los empleado también cuentan con una libreta de mar, con los los siguientes datos,
+fecha de expedición, vigencia, tipo de libreta (A o D). Los empelados deben de tener sus nss con la fecha de
+alta en la compañía. Los empleado tienen un certificado medico el cual tiene vigencia y determina si el
 empleado esta apto para trabajar. Cada empleado tiene un documento de entrega de epp el cual tiene una
-vigencia. Los empleados tienen una credencial de empresa que se compone de nombre, apellidos, categoria,
-vigencia de credencial, curp, tipo de sangre, alergia y numero de empresa, esta credencial nos gustaria crearla
-de manera automatica con el sistema. Los empleado tienen cusos de barcaza los cuales tienen vigencia.
+vigencia. Los empleados tienen una credencial de empresa que se compone de nombre, apellidos, categoría,
+vigencia de credencial, curp, tipo de sangre, alergia y numero de empresa, esta credencial nos gustaría crearla
+de manera automática con el sistema. Los empleado tienen cursos de barcaza los cuales tienen vigencia.
 
 ## Procesos
 

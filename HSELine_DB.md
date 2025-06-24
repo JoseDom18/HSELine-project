@@ -2,7 +2,7 @@
 
 ## Enunciado de procesos
 
-Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento QHSE, la lider de este departamento requiere un sistema donde la información se ecuentre centralizada, el sistema debe de alojar a toda la base de [empleados](#empleados) para poder almacenar toda la informacion para su uso posterior, uno de los principales procesos es la elaboracion de contratos. Para esto se necesita capturar la siguiente informacion del empleado. Nombre, apellidos, clave de elector, vigencia de ine, fecha de nacimiento, curp, numero de empleado, [categoria](#categorias-ed), tipo de sangre, alergias, numero de empleado, años laborales. Cada empleado cuenta con 3 tipos diferentes de certificaciones, la primera son los [cursos iadc](#iadc_empleado-ep) (piso de perforacion) estos cursos tienen un numero de folio unico, una vigencia, nombre y fecha de expedicion; la segunda son los [cursos de anexo SSPA](#cursos-ssspa-ec) los cuales tienen vigencia, fecha de expedicion y nombre del capacitador, y por ultimo el tecer tipo de curso son los cursos tecnicos que tienen vigencia, expedicion y estan clasificados dependiendo la categoria del empleado. Los empleado tambien cuentan con una libreta de mar, con los los siguientes datos, fecha de expedicion, vigencia, tipo de libreta (A o D). Los empelados deben de tener sus nss con la fecha de alta en la compañia. Los empleado tienen un certificado medico el cual tiene vigencia y determina si el empleado esta apto para trabajar. Cada empleado tiene un documento de entrega de epp el cual tiene una vigencia. Los empleados tienen una [credencial](#credenciales-ep) de empresa que se compone de nombre, apellidos, categoria, vigencia de credencial, curp, tipo de sangre, alergia y numero de empresa, esta credencial nos gustaria crearla de manera automatica con el sistema. Los empleado tienen cusos de barcaza los cuales tienen vigencia.
+Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento QHSE, la líder de este departamento requiere un sistema donde la información se encuentre centralizada, el sistema debe de alojar a toda la base de [empleados](#empleados) para poder almacenar toda la información para su uso posterior, uno de los principales procesos es la elaboración de contratos. Para esto se necesita capturar la siguiente información del empleado. Nombre, apellidos, clave de elector, vigencia de ine, fecha de nacimiento, curp, numero de empleado, [categoría](#categorias-ed), tipo de sangre, alergias, numero de empleado, años laborales. Cada empleado cuenta con 3 tipos diferentes de certificaciones, la primera son los [cursos iadc](#iadc_empleado-ep) (piso de perforación) estos cursos tienen un numero de folio único, una vigencia, nombre y fecha de expedición; la segunda son los [cursos de anexo SSPA](#cursos-ssspa-ec) los cuales tienen vigencia, fecha de expedición y nombre del capacitador, y por ultimo el tercer tipo de curso son los cursos técnicos que tienen vigencia, expedición y están clasificados dependiendo la categoría del empleado. Los empleado también cuentan con una libreta de mar, con los los siguientes datos, fecha de expedición, vigencia, tipo de libreta (A o D). Los empelados deben de tener sus nss con la fecha de alta en la compañía. Los empleado tienen un certificado medico el cual tiene vigencia y determina si el empleado esta apto para trabajar. Cada empleado tiene un documento de entrega de epp el cual tiene una vigencia. Los empleados tienen una [credencial](#credenciales-ep) de empresa que se compone de nombre, apellidos, categoría, vigencia de credencial, curp, tipo de sangre, alergia y numero de empresa, esta credencial nos gustaría crearla de manera automática con el sistema. Los empleado tienen cursos de barcaza los cuales tienen vigencia.
 
 ----
 
@@ -10,6 +10,34 @@ Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento
  <!-- los datos de los empleados son nombre, apellidos, cursos tecnicos, cursos de anexo sspa (27), cursos iadc (piso de perforacion), categoria, --> 
  <!-- certificado medico, entrega de epp, credencial de la empresa, curp, numero de empleado, alergias, tipo de sangre, libreta de mar, --> 
  <!-- curso de barcaza, alta de imms (fecha de inicio de akkal). Los cursos iadc tienen un folio, fecha de expedicion, una vigencia. Los cursos sspa tienen nombre de empleado, vigencia, fecha expedicion, nombre del instructor.  -->
+## Listado de datos de empleado
+
+### Empleado
+  - nombre
+  - clave de elector
+  - vigencia de ine
+  - fecha de nacimiento
+  - curp
+  - numero empleado
+  - Carrera
+  - (nivel de estudios)
+  - (Descripcion de labores)
+  - Tipo de sangre
+  - (nacionalidad)
+  - (estado)
+  - (país)
+  - Alergias
+  - Años laborales
+  - Certificados IADC
+  - Cursos SSPA
+  - Libreta de mar
+  - nss
+  - Fecha de alta nss
+  - Certificado medico
+  - Documento de entrega epp
+  - Curso de barcazas
+  - Credencial de la empresa
+
 
 ## Entidades
 
