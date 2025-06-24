@@ -1,7 +1,7 @@
 # Casos de uso - HSELine
 
 ## Antecedentes
-
+<div text-align="justified">
 Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento QHSE, la lider de este
 departamento requiere un sistema donde la información se ecuentre centralizada, el sistema debe de alojar a
 toda la base de empleados para poder almacenar toda la informacion para su uso posterior, uno de los
@@ -19,6 +19,11 @@ empleado esta apto para trabajar. Cada empleado tiene un documento de entrega de
 vigencia. Los empleados tienen una credencial de empresa que se compone de nombre, apellidos, categoria,
 vigencia de credencial, curp, tipo de sangre, alergia y numero de empresa, esta credencial nos gustaria crearla
 de manera automatica con el sistema. Los empleado tienen cusos de barcaza los cuales tienen vigencia.
+</div>
+
+## Análisis
+
+
 
 ## Procesos
 
