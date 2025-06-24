@@ -1,11 +1,11 @@
 # Casos de uso - HSELine
 
 ## Antecedentes
-
-Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento QHSE, la líder de este
-departamento requiere un sistema donde la información se encuentre centralizada, el sistema debe de alojar a
-toda la base de empleados para poder almacenar toda la información para su uso posterior, uno de los
-principales procesos es la elaboración de contratos. Para esto se necesita capturar la siguiente información del
+<div text-align="justified">
+Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento QHSE, la lider de este
+departamento requiere un sistema donde la información se ecuentre centralizada, el sistema debe de alojar a
+toda la base de empleados para poder almacenar toda la informacion para su uso posterior, uno de los
+principales procesos es la elaboracion de contratos. Para esto se necesita capturar la siguiente informacion del
 empleado. Nombre, apellidos, clave de elector, vigencia de ine, fecha de nacimiento, curp, numero de
 empleado, categoría, tipo de sangre, alergias, numero de empleado, años laborales. Cada empleado cuenta
 con 3 tipos diferentes de certificaciones, la primera son los cursos iadc (piso de perforación) estos cursos
@@ -16,9 +16,14 @@ categoría del empleado. Los empleado también cuentan con una libreta de mar, c
 fecha de expedición, vigencia, tipo de libreta (A o D). Los empelados deben de tener sus nss con la fecha de
 alta en la compañía. Los empleado tienen un certificado medico el cual tiene vigencia y determina si el
 empleado esta apto para trabajar. Cada empleado tiene un documento de entrega de epp el cual tiene una
-vigencia. Los empleados tienen una credencial de empresa que se compone de nombre, apellidos, categoría,
-vigencia de credencial, curp, tipo de sangre, alergia y numero de empresa, esta credencial nos gustaría crearla
-de manera automática con el sistema. Los empleado tienen cursos de barcaza los cuales tienen vigencia.
+vigencia. Los empleados tienen una credencial de empresa que se compone de nombre, apellidos, categoria,
+vigencia de credencial, curp, tipo de sangre, alergia y numero de empresa, esta credencial nos gustaria crearla
+de manera automatica con el sistema. Los empleado tienen cusos de barcaza los cuales tienen vigencia.
+</div>
+
+## Análisis
+
+
 
 ## Procesos
 
@@ -67,7 +72,7 @@ Flujo principal:
 
 - Nombre: Registrar Usuario
 - Actores: Administrador, gob.mx
-- Descripción: Dar de alta al usuario nuevo en el sistema, el sistema se apoyara de diferentes sistemas como la pagina gob.mx para encontrar datos en automático.
+- Descripción: Dar de alta al usuario nuevo en el sistema, el sistema se apoyara de diferentes sistemas como la pagina gob.mx para encontrar datos en automático (el administrador necesita tener los siguientes documentos: CURP, NSS, cursos, nivel de estudios, INE, etc), el administrador debe ingresar a nuestra plataforma, iniciar sesión mediante su usuario y contraseña que se le proporcionará, despues de iniciar sesion podra visualizar el panel de administracion de empleados, aquí el administrador podra seleccionar agregar a un empleado, deberá ingresar los datos del nuevo empleado, como tambien los cursos que tiene.
 - Precondición: Tener todos los documentos del empleado.
 - Postcondición: El usuario queda dado de alta en el sistema.
 - Escenario: El administrador tiene los documentos del empleado y puede dar de alta al empleado sin problemas.
