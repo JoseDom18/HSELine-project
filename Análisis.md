@@ -3,7 +3,7 @@
 ## Antecedentes
 
 
-El departamento QHSE de una empresa petrolera, requiere mejorara sus sistema de trabajo actual para hacerlo mas eficiente. Las principales actividades de este departamento son:
+El departamento QHSE de una empresa petrolera, requiere mejorar su sistema de trabajo actual para hacerlo mas eficiente. Las principales actividades de este departamento son:
 
 - Generación de contratos: estos contratos se generan cuando el departamento de ventas vende o renta un servicio a un cliente del sector petrolero para llevar a acabo esta negociación el cliente solicita el alta del personal (empleado), de acuerdo a las categorías (especialidad del empleado) del servicio brindado.
 
@@ -178,26 +178,38 @@ El cliente piensa que el software podría requerir el aumento de un modulo para 
 #### UC 6
 - Nombre: Login
 - Actores: Administrador
-- Descripción:
-- Precondición:
-- Postcondición:
-- Escenario:
+- Descripción: El administrador deberá ingresar a nuestro sitio con su usuario y contraseña previamente otorgados.
+  1. Entrar al sitio web de HSELine.
+  2. Dar click en el boton de iniciar sesión que se encontrara en la esquina superior derecha.
+  3. El sistema redireccionara a otra ruta de la pagina donde el usuario podra logiarse.
+  4. El administrador se logiara con su usuario y contraseña
+  5. Si todo está correcto, el administrador le dara al boton de continuar, y habrá iniciado sesión con exito.
+  6. El sistema lo redireccionara y ahora el administrador podra observar el panel de administración.
+- Precondición: El administrador debe estar previamente registrado en el sistema de HSELine para poder logiarse.
+- Postcondición: El administrador podrá visualizar el panel de administración de empleados y podrá realizar sus actividades.
+- Escenario alternativo: El administrador no está dado de alta, por lo tanto el sistema no lo reconoce y le mostrará el siguiente mensaje "El usuario o contraseña no coinciden con los registros de nuestro sistema"
 
 #### UC 6
 - Nombre: Consultar vigencia de cursos
 - Actores: Administrador
-- Descripción:
-- Precondición:
-- Postcondición:
-- Escenario:
+- Descripción: El administrador ingresará al panel de administracion de empleados, seleccionará a uno de sus empleados y consultará la vigencia de sus cursos.
+  1. Despues de haber iniciado sesión, el administrador podra visualizar el panel de control de empleados.
+  2. El administrador buscará y seleccionará al empleado del que quiera observar su información mediante una barra de busqueda, o buscando su foto y nombre en la lista de empleados.
+  3. El administrador dará click en el empleado.
+  4. El administrador podra visualizar la informacion del empleado y podra visualizar los cursos que tiene el empleado, tanto como los vigentes, los vencidos y los que estan por vencer, para visualizar cada uno dará click en su respectivo boton.
+- Precondición: El administador ingreso al panel de administracion de empleados y seleccionó el empleado a visualizar.
+- Postcondición: El administrador pudo observar de manera exitosa la vigencia de los cursos de su empleado.
+- Escenario alternativo: El administrador no inicio sesión. 
 
 #### UC 7
 - Nombre: Enviar alertas por correo de cursos vencer
-- Actores: Administrador
-- Descripción:
-- Precondición:
-- Postcondición:
-- Escenario:
+- Actores: Sistema
+- Descripción: El sistema enviará de manera automatica un correo al empleado en donde le mandará una alerta de los cursos que esten por vencer y los cuales necesita renovar.
+  1. El sistema detecta el curso o cursos que esten por vencer.
+  2. El sistema enviará un correo de manera automatizada al empleado donde se le especificara los cursos que estan por vencer y de los cuales necesita renovar.
+- Precondición: El empleado debe tener cursos que esten por vencer. 
+- Postcondición: El sistema le habrá enviado de manera satisfactorio el correo alertandole al empleado los cursos que necesita renovar.
+- Escenario alternativo: El empleado no tiene cursos que esten por vencer.
 
 
 ![diagrama de casos de uso](plantuml.png)
