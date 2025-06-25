@@ -3,7 +3,7 @@
 left to right direction
 skinparam packageStyle rectangle
 actor Administrador
-actor Empleado
+' actor Empleado
 actor "Sistema de Correos" as Mailer
 actor "Gob.mx" as curp
 
@@ -22,12 +22,14 @@ rectangle "Sistema HSELine" {
   usecase "Consultar archivos de empleado" as UC10
   usecase "Eliminar archivos de empleado" as UC11
   usecase "Generar credencial automáticamente" as UC12
+  usecase "Login" as UC13
+  usecase "Verificar credenciales" as UC14 
 
   ' Casos de uso del Empleado
-  usecase "Registrarse en el sistema\n(si su número fue precargado)" as UC13
-  usecase "Consultar mi información personal" as UC14
-  usecase "Consultar cursos por vencer" as UC15
-  usecase "Realizar cursos virtuales" as UC16
+  ' usecase "Registrarse en el sistema\n(si su número fue precargado)" as UC13
+  ' usecase "Consultar mi información personal" as UC14
+  ' usecase "Consultar cursos por vencer" as UC15
+  ' usecase "Realizar cursos virtuales" as UC16
 
 
   ' Relaciones del Administrador
@@ -43,18 +45,23 @@ rectangle "Sistema HSELine" {
   Administrador --> UC10
   Administrador --> UC11
   Administrador --> UC12
+  Administrador --> UC13
 
   ' Relaciones del Empleado
-  Empleado --> UC13
-  Empleado --> UC14
-  Empleado --> UC15
-  Empleado --> UC16
+  ' Empleado --> UC13
+  ' Empleado --> UC14
+  ' Empleado --> UC15
+  ' Empleado --> UC16
+
+  ' Relaciones include
+  UC13 .> UC14 : include
+  }
 
   ' Relación del sistema con módulo externo de alertas
   UC8 <-down- Mailer
   ' Relación del sistema con módulo externo de datos personales
   UC1 <-down- curp
-}
+
 
 @enduml
 ```

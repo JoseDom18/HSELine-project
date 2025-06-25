@@ -9,6 +9,7 @@ El departamento QHSE de una empresa petrolera, requiere mejorar su sistema de tr
 
 - Realizar cursos de SSPA para los trabajadores, con estos los trabajadores se renuevan sus certificados.
 
+
 ## Pasos elaboración de contrato
 
 1. Una vez ya acordado el servicio el cliente comparte formatos en word y excel, aquí entra la tarea del administrador para realizar la alta de dicho servicio. En el formato de excel se coloca la vigencia de los cursos del anexo SSPA del empleado y en word se utiliza para crear el cv del trabajador. Estos formatos son llenado con información que facilita el departamento de RH, los formatos de los documentos Varian de acuerdo a la empresa y categoría, asi que no siempre son los mismos. Una vez que se realiza el llenado de los documentos estos se reenvían a la empresa contratante. El administrador conserva una copia del archivo para documentación.
@@ -21,7 +22,9 @@ El departamento QHSE de una empresa petrolera, requiere mejorar su sistema de tr
 
 5. El administrador usa un excel para llevar el control de los contratos que se realizan, en este documento reúne el nombre completo, profesión, empresa, puesto, fecha inicio, fecha termino, años laborados, total de años de experiencia, categoría que se dio de alta y un apartado de comentarios donde se confirma si el personal ya quedo dado de alta y puede empezar a realizar sus servicios.
 
+
 ### Procesos propenso a errores o tediosos.
+
 
 - La elaboración de las fechas de inicio y termino para conocer el numero de años de experiencia de trabajo, esto se saca de de sus cartas laborales. Este procedimiento esta propenso a muchos errores de calculo ya que se realizan al momento con el uso de una calculadora de años.
 - Escribir en cada matriz la fecha de los cursos de acuerdo a los documentos por empresa. Las matrices suelen cambiar de acuerdo a empresas diferentes. Esto hace que se a difícil automatizar este tipo de procedimiento.
@@ -40,9 +43,11 @@ Generación de contratos:
 - Almacenamiento de documentos que se adjuntan en el CV de alta del empleado, con esto se puede acceder a ellos de manera rápida al momento de elaborar un contrato, aparte de tener un sistema de carpetas de manera organizada.
 - Realizar calculo automático de años laborales del trabajador.
 
+
 ## Futuro del software
 
 El cliente piensa que el software podría requerir el aumento de un modulo para los empleados en un futuro en el que puedan con consultar sus cursos, puedan ver cuales están por vencer, consultar su información personal, realizar cursos en linea para renovar sus certificados del anexo SSPA.
+
 
 ## Modelo de casos de uso
 
@@ -96,6 +101,7 @@ El cliente piensa que el software podría requerir el aumento de un modulo para 
 - Escenario: El administrador tiene los documentos del empleado y puede dar de alta al empleado sin problemas.
 - Escenario alternativo: El administrador no cuenta con todos los documentos, el administrador no puede ingresar todos los datos al sistema por lo tanto es imposible agregar al nuevo empleado es sistema exige los datos completos.
 
+
 #### UC 2
 
 - Nombre: Modificar Usuario
@@ -118,6 +124,7 @@ El cliente piensa que el software podría requerir el aumento de un modulo para 
 - Postcondición: La información seleccionada queda modificada.
 - Escenario alternativo: El sistema no tiene al empleado registrado, el sistema solicita dar de alta al empleado.
 
+
 #### UC 3
 
 - Nombre: Eliminar empleado
@@ -139,6 +146,7 @@ El cliente piensa que el software podría requerir el aumento de un modulo para 
 - Postcondición: El empleado queda fuera del sistema.
 - Escenario alternativo: Si el usuario no existe, no se requiere ninguna acción en el sistema.
 
+
 #### UC 4
 
 - Nombre: Consultar información de empleado
@@ -156,6 +164,7 @@ El cliente piensa que el software podría requerir el aumento de un modulo para 
 - Precondición: El empleado debe estar dado de alta en el sistema. El administrador debe hacer login.
 - Postcondición: El sistema muestra los datos por medio de la interfaz.
 - Escenario alternativo: El empleado no esta dado de alta en el sistema y no puede mostrar ninguna información.
+
 
 #### UC 5
 
@@ -175,41 +184,47 @@ El cliente piensa que el software podría requerir el aumento de un modulo para 
 - Postcondición: El sistema crea la credencial.
 - Escenario alternativo: El empleado no esta dado de alta por lo tanto el sistema no lo reconoce y marca error.
 
+
 #### UC 6
+
 - Nombre: Login
 - Actores: Administrador
 - Descripción: El administrador deberá ingresar a nuestro sitio con su usuario y contraseña previamente otorgados.
   1. Entrar al sitio web de HSELine.
-  2. Dar click en el boton de iniciar sesión que se encontrara en la esquina superior derecha.
-  3. El sistema redireccionara a otra ruta de la pagina donde el usuario podra logiarse.
-  4. El administrador se logiara con su usuario y contraseña
-  5. Si todo está correcto, el administrador le dara al boton de continuar, y habrá iniciado sesión con exito.
-  6. El sistema lo redireccionara y ahora el administrador podra observar el panel de administración.
-- Precondición: El administrador debe estar previamente registrado en el sistema de HSELine para poder logiarse.
+  2. Dar click en el botón de iniciar sesión que se encontrara en la esquina superior derecha.
+  3. El sistema envía a otra ruta de la pagina donde el usuario podrá hacer login.
+  4. El administrador hace login con su usuario y contraseña
+  5. Si todo está correcto, el administrador le dará al botón de continuar, y habrá iniciado sesión con éxito.
+  6. El sistema lo mostrara el panel de administración.
+- Precondición: El administrador debe estar previamente registrado en el sistema de HSELine para poder hacer login.
 - Postcondición: El administrador podrá visualizar el panel de administración de empleados y podrá realizar sus actividades.
 - Escenario alternativo: El administrador no está dado de alta, por lo tanto el sistema no lo reconoce y le mostrará el siguiente mensaje "El usuario o contraseña no coinciden con los registros de nuestro sistema"
 
-#### UC 6
+
+#### UC 7
+
 - Nombre: Consultar vigencia de cursos
 - Actores: Administrador
-- Descripción: El administrador ingresará al panel de administracion de empleados, seleccionará a uno de sus empleados y consultará la vigencia de sus cursos.
-  1. Despues de haber iniciado sesión, el administrador podra visualizar el panel de control de empleados.
-  2. El administrador buscará y seleccionará al empleado del que quiera observar su información mediante una barra de busqueda, o buscando su foto y nombre en la lista de empleados.
+- Descripción: El administrador ingresará al panel de administración de empleados, seleccionará a uno de sus empleados y consultará la vigencia de sus cursos.
+  1. Después de haber iniciado sesión, el administrador podrá visualizar el panel de control de empleados.
+  2. El administrador buscará y seleccionará al empleado del que quiera observar su información mediante una barra de búsqueda, o buscando su foto y nombre en la lista de empleados.
   3. El administrador dará click en el empleado.
-  4. El administrador podra visualizar la informacion del empleado y podra visualizar los cursos que tiene el empleado, tanto como los vigentes, los vencidos y los que estan por vencer, para visualizar cada uno dará click en su respectivo boton.
-- Precondición: El administador ingreso al panel de administracion de empleados y seleccionó el empleado a visualizar.
+  4. El administrador podrá visualizar la información del empleado y podrá visualizar los cursos que tiene el empleado, tanto como los vigentes, los vencidos y los que están por vencer, para visualizar cada uno dará click en su respectivo botón.
+- Precondición: El administrador ingreso al panel de administración de empleados y seleccionó el empleado a visualizar.
 - Postcondición: El administrador pudo observar de manera exitosa la vigencia de los cursos de su empleado.
 - Escenario alternativo: El administrador no inicio sesión. 
 
-#### UC 7
+
+#### UC 8
+
 - Nombre: Enviar alertas por correo de cursos vencer
 - Actores: Sistema
-- Descripción: El sistema enviará de manera automatica un correo al empleado en donde le mandará una alerta de los cursos que esten por vencer y los cuales necesita renovar.
-  1. El sistema detecta el curso o cursos que esten por vencer.
-  2. El sistema enviará un correo de manera automatizada al empleado donde se le especificara los cursos que estan por vencer y de los cuales necesita renovar.
-- Precondición: El empleado debe tener cursos que esten por vencer. 
-- Postcondición: El sistema le habrá enviado de manera satisfactorio el correo alertandole al empleado los cursos que necesita renovar.
-- Escenario alternativo: El empleado no tiene cursos que esten por vencer.
+- Descripción: El sistema enviará de manera automática un correo al empleado en donde le mandará una alerta de los cursos que estén por vencer y los cuales necesita renovar.
+  1. El sistema detecta el curso o cursos que estén por vencer.
+  2. El sistema enviará un correo de manera automatizada al empleado donde se le especificara los cursos que están por vencer y de los cuales necesita renovar.
+- Precondición: El empleado debe tener cursos que estén por vencer. 
+- Postcondición: El sistema le habrá enviado de manera satisfactorio el correo alertando al empleado los cursos que necesita renovar.
+- Escenario alternativo: El empleado no tiene cursos que estén por vencer.
 
 
 ![diagrama de casos de uso](plantuml.png)

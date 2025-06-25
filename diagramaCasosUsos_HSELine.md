@@ -1,7 +1,7 @@
 # Casos de uso - HSELine
 
 ## Antecedentes
-<div text-align="justified">
+<div style="text-align: justify;">
 Una empresa petrolera requiere automatizar y hacer mas eficiente su departamento QHSE, la lider de este
 departamento requiere un sistema donde la información se ecuentre centralizada, el sistema debe de alojar a
 toda la base de empleados para poder almacenar toda la informacion para su uso posterior, uno de los
