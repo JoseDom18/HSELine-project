@@ -191,7 +191,8 @@ El cliente piensa que el software podría requerir el aumento de un modulo para 
 - Actores: Administrador
 - Descripción: El administrador ingresará al panel de  de empleados, desde el cual podrá ser capaz de ver vigencias de cursos por vencer.
   1. Haciendo clic en el botón empleados del menu, el sistema entrará al panel de empleados.
-  2. En la parte inferior de la venta aparece un contenedor, con los cursos de los empleados que estan a punto de vencer
+  2. En la parte inferior de la ventana aparece un contenedor, con los cursos y nombres de empleado que están a punto de vencer y los cursos que ya vencieron.
+  3. Si el administrador hace click sobre los el nombre del empleado que aparece en esa lista lo redirigirá a la pagina de consulta de información del usuario.
 - Precondición: El administrador ingreso al panel de administración de empleados y seleccionó el empleado a visualizar.
 - Postcondición: El administrador pudo observar de manera exitosa la vigencia de los cursos de su empleado.
 - Escenario alternativo: El administrador no inicio sesión.
